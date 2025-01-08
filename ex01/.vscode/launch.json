@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "lldb phonebook",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/phonebook",
+            "args": "",
+            "preLaunchTask": "lldb re-compil",
+            "cwd": "${workspaceFolder}"
+        },
+    ]
+}
